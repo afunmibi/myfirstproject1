@@ -39,7 +39,7 @@ body{
   transform: scale(1.1);
   }
 .nav-item{
-  margin-left: 250px;
+  margin-left: 200px;
 }
   /* contact form */
 
@@ -53,7 +53,7 @@ body{
     }
     
     .carousel-indicators{
-        width: 700px;
+        width: 600px;
         height: 400px;
     }
 
