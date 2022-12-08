@@ -13,31 +13,42 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assest/image/logo.png" width="50px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><img src="assest/image/logo.png" width="50px"></a> 
+        <br><p><em><strong>expectation exceeded....</strong></em></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="About.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="store.html">Stores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-between flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Stores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              </ul>
+            
+          </div>
+        </div>
       </div>
     </nav>
   </header>
+  
+  <h1 style="text-align: center;">Cosmic Services</h1>
   <br>
   <p id="likely"></p>
   <div class="big-container">
@@ -65,22 +76,11 @@
   </form>
   </div>
 </div>
-<!-- footer -->
-<div class="fixed-footer">
-  <div class="b-example-divider"></div>
-      <div class="container text-info">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="About.html" class="nav-link px-2 text-muted">About</a></li>
-        <li class="nav-item"><a href="store.html" class="nav-link px-2 text-muted">Stores</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">contact</a></li>
-      </ul>
-      <div class="container">
+
+     
       <p class="text-center text-muted text-bg-dark text-info">Cosmicservices&copy;2022 Company, Inc. All right Reserved</p>
-    </div>
-    </footer>
-  </div></div>
+    
+    
   <script src="assest/js/index.js"></script>
   </body>
   </html>
