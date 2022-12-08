@@ -7,24 +7,14 @@ form{
     width: auto;
     color: black;
     border-radius: 20px;
-    background-color: coral;
+    background: linear-gradient(20px, 60px, 10px, 90);
     display: flex;
 }
-@media screen (max-width: 768px){
-    form{
-        display: block;
-    }
-.div1{
-    display:block;}
-
-
-}
-    
 header{
     margin-bottom: 50px;
 }
 fieldset{
-    padding: 15px;
+    padding: 10px;
     background-color: lightslategray
     color: black;
 }
