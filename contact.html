@@ -49,31 +49,48 @@
   
  
   <br>
-  <div class="div1 a">
-    <div class="big-container row-cols-md-3 " class="conta">
-<form action="submit" method="post" name="contactform" onsubmit="return showup()">
-  <fieldset>
-    <h6>Kindly fill below form to get in touch with Us</h6>
-    <legend>Contact Us</legend>
-    <input type="text" name="fname" placeholder="Fullname"><br>
-  <input type="phone" name="phone" placeholder="Phone No."><br>
-  <input type="email" name="Email" placeholder="Email"><br>
-<textarea rows="10" cols="30" placeholder="Message Here"></textarea><br>
-<button id="bttn">Submit</button>
-<ul>
-  <p><input type="checkbox" name="dataprivacy">
-  Data privacy laws applied</p>
+<style>
+        button{
+            align-items: center;
+            background-color: purple;
+            color: white;
+            height: 30px;
+            width: auto;
+            border-radius: 10px;
 
-</ul>
-<p>Contact: +2348062328638</p>
-  </fieldset>
-  </form>
-  </div>
-</div>
-<br>
-     
+        }
+        button:hover{
+            color: blue;
+            background-color: red;
+        }
+        button::after{
+            background-color: coral;
 
+        }
+    </style>
+</head>
+<body>
     
+    <br>
+<button onclick="show()">Click to Contact Us</button>
+
+
+
+
+    <script>
+function show(){
+    let fname =  prompt('Hey, what is your firstname');
+    if(fname ===' '){
+        alert('Input must be filled');
+    }
+    let sname =  prompt(`Hey ${fname}, what is your Surname`)
+    let email =  prompt(`Hey ${fname} ${sname}, what is your email address?`); 
+alert('Thank you for filling our form, we shall get back soon');
+}
+
+ </script>
+<br>
+      
     
   <script src="assest/js/index.js"></script>
   </body>
